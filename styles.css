@@ -21,9 +21,10 @@ body {
   width: 400px;
 }
 
-.nav-bar > ul > li > a {
+.nav-bar > li > a {
   text-decoration: none;
   display: inline;
+  color: #D4B36D;
 }
 
 .nav {
@@ -197,4 +198,107 @@ li {
 .services > .services1 {
   margin-top: 90px;
   width: 80%;
+}
+
+.prices-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #EBEBEB;
+  box-sizing: border-box;
+  padding-bottom: 150px;
+}
+.prices-container > span {
+  font-family: Gelasio;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 83px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 30px;
+  align-self: center;
+  margin-bottom: 90px;
+}
+
+.prices-item {
+  height: 587px;
+  width: 369px;
+  border-radius: 25px;
+}
+
+.prices {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+}
+
+#p1 {
+  background-color: #FFFFFF;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#p1 > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+#p2 {
+  background-color: #615E59;
+}
+#p2 > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+#p3 {
+  background-color: #FF920F;
+}
+#p3 > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.missoin {
+  width: 100%;
+  height: 257px;
+  background-color: #FF920F;
+  margin-top: -35px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 200px 0 200px;
+}
+
+.missoin-text {
+  color: white;
+  font-family: Gelasio;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.mailfom {
+  width: 100%;
+  background-color: #EBEBEB;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.mailfom > img {
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #FF920F;
+  height: 138px;
 }/*# sourceMappingURL=styles.css.map */
